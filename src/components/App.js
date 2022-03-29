@@ -23,7 +23,15 @@ const App = () => {
       <br />
 
       <label htmlFor="num-input">Number input</label>
-      <input id="num-input" type="number" onChange={handleInput} />
+      <input
+        id="num-input"
+        type="number"
+        onChange={(e) => {
+          console.log(
+            "Input in #" + event.target.id + "is" + event.target.value
+          );
+        }}
+      />
       <br />
     </div>
   );
