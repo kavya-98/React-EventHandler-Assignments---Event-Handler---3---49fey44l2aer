@@ -14,7 +14,7 @@ const App = () => {
         type="text"
         onChange={(e) => {
           console.log(
-            "Input in #" + event.target.id + "  is  " + event.target.value
+            "Input in #" + event.target.id + " is " + event.target.value
           );
         }}
       />
@@ -28,7 +28,7 @@ const App = () => {
         type="number"
         onChange={(e) => {
           console.log(
-            "Input in #" + event.target.id + "is" + event.target.value
+            "Input in #" + event.target.id + " is " + event.target.value
           );
         }}
       />
