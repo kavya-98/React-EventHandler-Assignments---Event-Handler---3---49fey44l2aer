@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/App.css";
 const App = () => {
   // const handleInput = (event) => {
-  //   console.log("Input in #" + event.target.id + "is" + event.target.value);
+  //   console.log("Input in #" + event.target.id + " is " + event.target.value);
   // };
 
   // do not change id of input elements
@@ -14,7 +14,7 @@ const App = () => {
         type="text"
         onChange={(e) => {
           console.log(
-            "Input in #" + event.target.id + "is" + event.target.value
+            "Input in #" + event.target.id + " is " + event.target.value
           );
         }}
       />
